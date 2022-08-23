@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <meta charset="UTF-8" />
+            <title>formulario elaborado</title>
+    </head>
+
+    <form>
+
+        <h1>Formulário</h1>
+
+
+        <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" required>
+<br>
+<br>
+                <label for="endereço">Endereço:</label>
+                <input type="text" name="endereço" required>
+<br>
+<br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" required>
+<br>
+<br>
+                <label for="estado">Selecione seu Estado:</label>
+                <select id="estado">
+                        <option>São paulo</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Amazonas</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Santa Catarina</option>
+                        <option>Acre</option>
+                </select>
+        </fieldset>
+<br>
+<br>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                Natureza do Cargo
+                <br>
+            
+                <input type="radio" id="gerencia" name="dados">
+                <label for="gerencia">Gerência</label>
+
+            
+                <input type="radio" id="financeiro" name="dados">
+                <label for="financeiro">Financeiro</label>
+
+                
+                <input type="radio" id="recepção" name="dados">
+                <label for="recepção">Recepção</label>
+
+               
+                <input type="radio" id="adm" name="dados">
+                <label for="adm">Administrativo</label>
+
+                
+                <input type="radio" id="juri" name="dados">
+                <label for="juri">Juridico</label>
+
+                <br>
+                <br>
+
+                Área de interesse
+                <br>
+                <input type="checkbox" id="computação">
+                <label for="computação">Computação</label>
+
+                <input type="checkbox" id="biologia">
+                <label for="biologia">Biologia</label>
+                
+                <input type="checkbox" id="meioamb">
+                <label for="meioamb">Meio Ambiente</label>
+
+                <input type="checkbox" id="enge">
+                <label for="enge">Engenharia</label>
+
+                <input type="checkbox" id="his">
+                <label for="his">História</label>
+
+                <br>
+                <br>
+
+                <label for="minc">Mini-curriculo</label>
+                <textarea id="minc" name="minc" rows="8" cols="40" required></textarea>
+            </fieldset>
+
+<br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                
+
+
+    </form>
+    </body>
+
+</html>

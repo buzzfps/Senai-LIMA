@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>sistema interno manutenção</title>
+</head>
+
+
+
+
+<body style="font-family:Arial, Helvetica, sans-serif">
+
+    <h2 style="font-family: arial;">MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h2>
+    <form>
+        <label for="login"><b>Login</b></label>
+        <input type="text" id="login" required>
+
+        <br>
+        <br>
+
+        <label for="senha"><b>Senha</b></label>
+        <input type="password" id="senha" required>
+
+        <br>
+        <br>
+
+        <label for="status">Status</label>
+        <select id="status">
+            <option><b>Online</b></option>
+            <option><b>Inativo</b></option>
+            <option><b>Não pertube</b></option>
+            <option><b>Offline</b></option>
+        </select>
+
+        <br>
+        <br>
+
+        <b>Tipos</b>
+
+        <input type="radio" id="tipos" name="tipos">
+        <label for="tipos"><b>Técnico</b></label>
+
+        <input type="radio" id="prof" name="tipos">
+        <label for="prof"><b>Professor</b></label>
+
+        <input type="radio" id="Aluno" name="tipos">
+        <label for="Aluno"></label><b>Aluno</b></label>
+
+        <br>
+        <br>
+
+        <b>Data criação</b> 
+
+        <label for="data"></label>
+        <input type="date" id="data" required>
+
+        <br>
+        <br>
+
+        <b>Perfil</b>
+
+        <input type="radio" id="aluno" name="perfil">
+        <label for="aluno"><b>Convidado</b></label>
+
+        <input type="radio" id="adm" name="perfil">
+        <label for="adm"><b>Administrador</b></label>
+
+        <br>
+        <br>
+
+        <b>Observações</b>
+<br>
+
+        <label for="obs"></label>
+        <textarea id="obs" rows="8" cols="40" required></textarea>
+<br>
+        <input type="checkbox" id="compras">
+        <label for="compras"><b>Compras</b></label>
+
+        <input type="checkbox" id="biblioteca">
+        <label for="biblioteca"><b>Bibliotecas</b></label>
+
+        <input type="checkbox" id="Académico">
+        <label for="Académico"><b>Académico</b></label>
+<br>
+<br>
+        <b>módulos</b>
+<br>
+<br>
+        <input type="checkbox" id="Documentação">
+        <label for="Documentação"><b>Documentação</b</label>
+
+        <input type="checkbox" id="rh">
+        <label for="Rh"><b>Recursos Humanos</b></label>
+
+<br>
+<br>
+
+        <input type="submit" value="Cadastrar">
+        <input type="reset"  value="Excluir">
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+p{
+    color:rgb(255, 0, 0);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 32px;
+    background-color:rgba(0, 0, 0);
+    border: 10px groove rgb(255, 255, 255);
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+} 
+#texto{
+    color:rgb(255, 0, 0);
+    font-family: 'Silkscreen', cursive;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0);
+    border: 10px groove rgb(255, 255, 255);
+    border-radius: 30px;
+    border-color: black;
+}
+.texto2{
+    color:rgb(255, 0, 0);
+    font-family: 'Rubik Iso', cursive;
+    font-size: 32px;
+    background-color:rgba(0, 0, 0);
+    width: 500px;
+    height: 350px;
+    border: 10px groove rgb(255, 255, 255);
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+}
+body{
+    background-image:url("../assets/wallpaper.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
