@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.circulos{
+    width: 150px;
+    height: 150px;
+    background-color:purple;
+    border-radius: 75px;
+    position: static;
+}
+#primeiro{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#segundo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#terceiro{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#quarto{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#quinto{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
