@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blocos{
+    width: 50vw;
+    height: 10vw;
+    border: 1px solid red;
+    border-radius: 23px;
+    box-sizing: border-box;
+}
+img{
+    width: 90px;
+    border-radius: 23px;
+    float: left;
+}
+ul{
+    margin: 30px;
+    list-style: none;
+}
+.menu > li{
+    margin-left: 20px;
+    float: left;
+}
+
+.exemplo{
+    width: 90vw;
+    height: 40vh;
+    margin: 30px;
+    border-radius: 23px;
+    border: 2px solid purple;
+}
+.exemplo > div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 23px;
+}
+.exemplo > #caixa2{
+    background-color: blue;
+}
+#caixa2 > .circulo{
+    border-radius: 50%;
+    background-color: black;
+}
