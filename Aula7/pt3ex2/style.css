@@ -4,32 +4,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-#b1 {
-    margin:left;
+#b1{
     width: 100%;
-    height: 23vw;
-    border: 1px solid black;
-    background-color: pink;
-}
-#b2{
-    width: 100%;
-    height: 23vw;
+    height: 20vh;
     position: absolute;
     bottom: 0%;
     border: 1px solid black;
     background-color: yellow;
 }
+#b2 {
+    margin:left;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid black;
+    background-color: pink;
+}
 #b3{
-    width: 30vw;
-    height: 70vh;
+    width: 25vh;
+    height: 39vw;
     border: 1px solid black;
     background-color: blue;
 }
 #b4{
     position: absolute;
-    right: 100%;
-    width: 30vw;
-    height: 70vh;
+    right: 0%;
+    width: 25vh;
+    top: 20%;
+    height: 60%;
     border: 1px solid black;
     background-color: blue;
+}
+#b5{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    background-color: gray;
+}
+#b6{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    right: 60%;
+    background-color: gray;
 }
