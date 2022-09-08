@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+}
+.parte1{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.a1{
+    height: 40px;
+    width: 500px;
+    background-color:aqua;
+}
+.a2{
+    height: 40px;
+    width: 300px;
+    background-color:cornsilk;
+    margin-left: 1070px;
+}
+.parte2{
+    height: 100vh;
+    width: 25%;
+    background-color: pink;
+    display: flex;
+    padding: 20px;
+}
+.a3{
+    height: 300px;
+    width: 250px;
+    background-color: yellow;
+    margin-top: 100px;
+}
