@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    font-family: 'Kanit', sans-serif;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+header img{
+    margin-left: 100px;
+    width: 70px;
+    height: 70px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header li{
+    margin-right: 50px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 23px;
+    font-family: 'Kanit', sans-serif;
+}
+header li:hover{
+    background-color: cornsilk;
+    cursor: pointer;
+}
+header p{
+    margin-left: 23px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+}
+section img{
+    width: 1000px;
+    margin-top: 100px;
+}
+section #title{
+    color:blue;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+}
+section #content{
+    font-family: 'Kanit', sans-serif;
+    font-size: 27px;
+    margin-top: 25px;
+
+}
+section button{
+    margin-top: 23px;
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 23px;
+    background-color: blue;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+section button:hover{
+    cursor: pointer;
+}
