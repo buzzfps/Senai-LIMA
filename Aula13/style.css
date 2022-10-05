@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    filter: invert();
+    width: 1vw;
+    align-items: center;
+}
+header{
+    display: flex;
+    float: right;
+    padding: 23px;
+    align-items: center;
+}
+header a{
+    color: white;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+}
+header input{
+    display: none;
+}
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+    width: 100%;
+    flex-direction: column;
+}
+#google{
+    padding: 23px;
+}
+#section img{
+    width: 23vw;
+    align-items: center;
+}
+#pesquisa{
+    padding: 15px;
+    width: 35vw;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    
+}
+#pesquisa1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 0px 15px;
+}
+#pesquisa1 img{
+    width: 1rem;
+}
+#mic{
+    cursor: pointer;
+}
+#logo{
+    height: 24px;
+    width: 24px;
+}
+#logo img{
+    height: 24px;
+    width: 24px;
+    align-items: center;
+}
+#sombra{
+    height: 48px;
+    width: 48px;
+    border-radius: 78px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 23px;
+}
+#card{
+    height: 112px;
+    width: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#card:hover{
+    background-color:rgba(255, 255, 255, 0.105);
+}
+#titulo{
+    width: 88px;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 0px;
+}
+#titulo span{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+#pencil{
+    width: 32px;
+    height: 32px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 23px;
+    margin-top: 150px;
+    margin-right: 23px;
+}
+#pencil:hover{
+    background-color:rgba(255, 255, 255, 0.105);
+}
+footer img{
+    filter: invert();
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+
+
