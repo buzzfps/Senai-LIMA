@@ -8,9 +8,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header img{
-    filter: invert();
     width: 1vw;
     align-items: center;
+    cursor: pointer;;
+}
+#menuicon{
+    filter: invert();
 }
 header{
     display: flex;
@@ -23,9 +26,38 @@ header a{
     padding: 13px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 header input{
     display: none;
+}
+nav{
+    width: 19vw;
+    height: 60vh;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 3vw;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+}
+nav img{
+    width: 3vw;
+}
+nav ul{
+    width: 100px;
+    text-align: center;
+    padding: 23px;
+    list-style: none;
+}
+ul:hover {
+   cursor: pointer;
+   background-color: rgba(162, 162, 162, 0.453);
+   border-radius: 5px;
+}
+#menu:checked ~ nav{
+    display: block;
 }
 #section{
     display: flex;
@@ -34,6 +66,7 @@ header input{
     padding: 4vw;
     width: 100%;
     flex-direction: column;
+    
 }
 #google{
     padding: 23px;
