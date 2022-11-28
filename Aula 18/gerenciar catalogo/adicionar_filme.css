@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #2E2E2E;
+}
+header img{
+    width: 249px;
+    margin-left: 23px;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex; 
+}
+li{
+    margin: 23px;
+}
+#box2{
+    font-size: 20px;
+    border-radius: 5px;
+    color: #CFB53B;
+    padding: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border: 3px solid #CFB53B;
+}
+#box2:hover{
+    transition: 0.5s;
+    background-color: #CFB53B;
+    color: black;
+    cursor: pointer;
+}
+main{
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 201px;
+}
+div img{
+    width: 200px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filme{
+    width: 340px;
+    display: flex;
+    margin-left: 23px;
+    flex-direction: column;
+}
+#filme{
+    font-size: 23px;
+    margin-bottom: 37px;
+    color: #FFFFFF;
+}
+#excluir{
+    color:#FF5858;
+}
