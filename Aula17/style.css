@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
     background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #grad1{
     height: 200px;
     width: 200px;
-    background-image: conic-gradient(black 50%, white 100deg);
+    background-image: conic-gradient(black 40%, white 0deg);
+    transition: 2s;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -18,16 +22,10 @@ body{
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;;
 }
 #grad1:hover{
     background-image: conic-gradient(black 100%, white 100deg);
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 p{
     animation: animate 1s linear infinite;
