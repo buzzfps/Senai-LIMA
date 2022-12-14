@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+@media (max-width: 390px) {
+header{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.perfil{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 75px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66px;
+    height: 50px;
+}
+.perfil2{
+    margin-top: 23px;
+    margin-left: 17px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 23px;
+}
+#follow{
+    font-size: 18px;
+    color: white;
+    border-style: none;
+    background-color: rgb(8, 187, 241);
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+}
+#message{
+    font-size: 18px;
+    background-color: white;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+}
+.posts{
+    margin-top: 15px;
+    gap: 4px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.posts2{
+    width: 123px;
+    height: 123px;
+    background-color: rgb(214, 214, 214);
+}
+.nav{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 10vh;
+}
+.nav a{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 10vh;
+}
+.nav img{
+    width: 50px;
+}
+}
